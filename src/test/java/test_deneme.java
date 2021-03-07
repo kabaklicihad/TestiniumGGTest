@@ -19,9 +19,9 @@ public class test_deneme extends Helper{
             click(By.xpath("//div[text()='Giriş Yap']"));
             click(By.xpath("//div//a//span[text()='Giriş Yap']"));
 
-            sendKeys(By.cssSelector("#L-UserNameField"),"crypto9701@gmail.com");
+            sendKeys(By.cssSelector("#L-UserNameField"),"your_user_name");
 
-            sendKeys(By.cssSelector("#L-PasswordField"),"c192837");
+            sendKeys(By.cssSelector("#L-PasswordField"),"your_password");
 
             click(By.cssSelector("#gg-login-enter"));
 
